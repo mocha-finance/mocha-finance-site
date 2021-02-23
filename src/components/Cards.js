@@ -5,45 +5,9 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Which Swap?</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Dai to Eth'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='USDT to Eth'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Tether to Eth'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Uni to Eth'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Edtx to Eth'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
-        </div>
-      </div>
+      <h1 className='mid-title'>What is Staking?</h1>
+      <p className='mid-section'>The process of holding tokens in a cryptocurrency wallet to support the operations of a network. Participants help in the validation of new transactions and earn constant guaranteed time-based rewards.</p>
+      <p className='mid-section'>Stakers earn rewards in proportion to the staked amount and the staking time — the longer you stake, the more you earn.</p>
     </div>
   );
 }
