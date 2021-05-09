@@ -10,6 +10,7 @@ function HeroSection() {
       <h1>Start Your Journey</h1>
       <p>Let's get ready to Stake</p>
       <div className='hero-btns'>
+      <a href='https://bscscan.com/token/0x33e73243E8bC4c5a5605D43a1087ADc00A79CAf2'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -17,14 +18,17 @@ function HeroSection() {
         >
           Token Address
         </Button>
+      </a>
+      <a href='https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x33e73243E8bC4c5a5605D43a1087ADc00A79CAf2'>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          App <i className='far fa-play-circle' />
+          Buy Mocha Token <i className='far fa-play-circle' />
         </Button>
+      </a>
       </div>
     </div>
   );
