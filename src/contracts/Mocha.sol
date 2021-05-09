@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract EXTX {
+contract Mocha {
     string  public name = "Mocha Token";
     string  public symbol = "Moch";
     address public owner;
