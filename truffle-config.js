@@ -22,7 +22,7 @@ module.exports = {
       skipDryRun: true
     },
     production: {
-      provider: () => new hdWalletProvider(process.env.MNEMONIC, `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`),
+      provider: () => new hdWalletProvider(process.env.MNEMONIC, `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`),
       network_id: 1,
       gas: 7000000,
       confirmations: 2,
